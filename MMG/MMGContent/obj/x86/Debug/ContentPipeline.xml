@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>X:\C Sharp\MMG\MMG\MMG\bin\x86\Debug\Content\test.xnb</Output>
+      <Output>H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\bin\x86\Debug\Content\test.xnb</Output>
       <Time>2011-08-19T23:59:28+10:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -16,10 +16,10 @@
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>X:\C Sharp\MMG\MMG\MMGContent\</RootDirectory>
-      <LoggerRootDirectory>X:\C Sharp\MMG\MMG\MMG\</LoggerRootDirectory>
-      <IntermediateDirectory>X:\C Sharp\MMG\MMG\MMGContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>X:\C Sharp\MMG\MMG\MMG\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMGContent\</RootDirectory>
+      <LoggerRootDirectory>H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\</LoggerRootDirectory>
+      <IntermediateDirectory>H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMGContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

@@ -15,7 +15,7 @@ namespace MMG.MMGGame
     {
         public Test() : base()
         {
-            x = y = 50;
+            x = y = 33;
 
             offset.X = offset.Y = 2;
 

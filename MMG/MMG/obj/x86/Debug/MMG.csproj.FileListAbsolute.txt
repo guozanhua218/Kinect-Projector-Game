@@ -19,3 +19,10 @@ H:\C(sharp) Project\MMG\MMG\MMG\obj\x86\Debug\ResolveAssemblyReference.cache
 H:\C(sharp) Project\MMG\MMG\MMG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 H:\C(sharp) Project\MMG\MMG\MMG\obj\x86\Debug\MMG.exe
 H:\C(sharp) Project\MMG\MMG\MMG\obj\x86\Debug\MMG.pdb
+H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\bin\x86\Debug\Content\test.xnb
+H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\bin\x86\Debug\MMG.exe
+H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\bin\x86\Debug\MMG.pdb
+H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\obj\x86\Debug\MMG.exe
+H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\obj\x86\Debug\MMG.pdb

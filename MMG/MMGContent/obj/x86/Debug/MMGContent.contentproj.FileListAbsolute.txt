@@ -1,0 +1,3 @@
+C:\Share\C Sharp\MMG\MMG\MMGContent\obj\x86\Debug\ResolveAssemblyReference.cache
+X:\C Sharp\MMG\MMG\MMGContent\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\C(sharp) Project\MMG\MMG\MMGContent\obj\x86\Debug\ResolveAssemblyReference.cache

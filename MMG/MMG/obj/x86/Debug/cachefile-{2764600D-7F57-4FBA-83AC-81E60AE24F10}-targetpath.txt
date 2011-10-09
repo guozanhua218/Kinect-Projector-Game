@@ -1,1 +1,2 @@
 Content\test.xnb
+Content\depth.xnb

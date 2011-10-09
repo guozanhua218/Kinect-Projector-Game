@@ -48,6 +48,14 @@ namespace MMG.Managers.Sprites
             }
         }
 
+        public virtual void debug(GameTime time, BasicEffect effect)
+        {
+            foreach (MMGBasic b in members)
+            {
+                b.debug(time, effect);
+            }
+        }
+
 
         public void add(MMGBasic basic)
         {

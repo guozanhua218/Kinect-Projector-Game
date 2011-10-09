@@ -15,5 +15,6 @@ namespace MMG.Managers.Sprites
         void preupdate(GameTime time);
         void update(GameTime time);
         void draw(GameTime time, SpriteBatch spriteBatch);
+        void debug(GameTime time, BasicEffect effect);
     }
 }

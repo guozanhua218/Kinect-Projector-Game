@@ -43,7 +43,7 @@ namespace MMG
         {
 
 
-            spriteManager = new MMGSpriteManager(this);
+            spriteManager = new MMGSpriteManager(this, graphics.PreferredBackBufferWidth, graphics.PreferredBackBufferHeight);
                 Components.Add(spriteManager);
 
             keyboard = new MMGInputManager(this);

@@ -18,6 +18,8 @@ namespace MMG.Managers.Sprites
         protected bool _isAnimated;
         protected int _forceFrame;
 
+        protected bool _debug = true;
+
         public Color color;
         public float depth;
 
@@ -25,12 +27,13 @@ namespace MMG.Managers.Sprites
         {
             color = Color.White;
 
-            depth = 0;
+            depth = 1.0f/255;
         }
 
 
         public void loadGraphic(Texture2D spriteImage)
         {
+
             _texture = spriteImage;
             _spriteBox = new Rectangle(0, 0, _texture.Width, _texture.Height);
             _isAnimated = false;
@@ -101,18 +104,7 @@ namespace MMG.Managers.Sprites
                 _spriteBox.Y = _spriteBox.Height * ((_spriteBox.Width * f) / _texture.Width);
 
                 spriteBatch.Draw(_texture, Position, _spriteBox, color, rotation, orgin, scale, SpriteEffects.None, depth);
-
-                if (false)
-                {
-                    foreach (Vector2 v in getPoints())
-                    {
-                        spriteBatch.Draw(_texture,
-                            new Rectangle((int)v.X, (int    )v.Y, 4, 4),
-                            Color.Black);
-
-                    }
-                }
-                            
+           
             }
         }
 

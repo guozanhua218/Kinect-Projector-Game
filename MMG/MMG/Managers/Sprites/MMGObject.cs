@@ -26,6 +26,8 @@ namespace MMG.Managers.Sprites
         public float scale;
         public float rotation;
 
+        public Color debugColor = Color.Red;
+
         public Vector2 Position
         {
             get { return new Vector2(x, y); }
@@ -88,6 +90,29 @@ namespace MMG.Managers.Sprites
 
         public virtual void draw(GameTime time, SpriteBatch spriteBatch)
         {
+        }
+
+
+        public virtual void debug(GameTime time, BasicEffect effect)
+        {
+            Vector2[] points = getPoints();
+            VertexPositionColor[] pointList = new VertexPositionColor[points.Length + 1];
+
+
+            effect.VertexColorEnabled = true;
+            effect.TextureEnabled = false;
+
+            for (int i = 0; i < pointList.Length; i++)
+                pointList[i] = new VertexPositionColor(new Vector3(points[i % points.Length], 10), debugColor);
+
+            foreach (EffectPass pass in effect.CurrentTechnique.Passes)
+            {
+                pass.Apply();
+
+                MMGStatics.GraphicsDevice.DrawUserPrimitives<VertexPositionColor>
+                    (PrimitiveType.LineStrip, pointList, 0, points.Length);
+            }
+            return;
         }
 
         public Vector2[] getPoints()

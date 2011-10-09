@@ -10,6 +10,15 @@
       <Output>H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\bin\x86\Debug\Content\test.xnb</Output>
       <Time>2011-08-19T23:59:28+10:00</Time>
     </Item>
+    <Item>
+      <Source>depth.png</Source>
+      <Name>depth</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>H:\Harddrive\C Sharp\Kinect-Projector-Game\MMG\MMG\bin\x86\Debug\Content\depth.xnb</Output>
+      <Time>2011-10-07T21:15:16.3734136+11:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
